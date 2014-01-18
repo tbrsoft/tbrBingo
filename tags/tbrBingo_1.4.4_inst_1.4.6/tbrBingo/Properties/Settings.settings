@@ -1,0 +1,15 @@
+﻿<?xml version='1.0' encoding='utf-8'?>
+<SettingsFile xmlns="http://schemas.microsoft.com/VisualStudio/2004/01/settings" CurrentProfile="(Default)" GeneratedClassNamespace="tbrBingo.Properties" GeneratedClassName="Settings">
+  <Profiles />
+  <Settings>
+    <Setting Name="tbrBingo_SoftwareVersion_tbrSoftwareVersionWS" Type="(Web Service URL)" Scope="Application">
+      <Value Profile="(Default)">http://www.tbrsoft.com.ar/ws/Softwareversion/tbrsoftwareversionws.asmx</Value>
+    </Setting>
+    <Setting Name="tbrBingo_ErrorService_tbrErrorServiceWS" Type="(Web Service URL)" Scope="Application">
+      <Value Profile="(Default)">http://www.tbrsoft.com.ar/ws/errorservice/tbrErrorServiceWS.asmx</Value>
+    </Setting>
+    <Setting Name="pass" Type="System.String" Scope="User">
+      <Value Profile="(Default)">ieSV55Qc+eQOaYDRSha/AjzNTJE=</Value>
+    </Setting>
+  </Settings>
+</SettingsFile>

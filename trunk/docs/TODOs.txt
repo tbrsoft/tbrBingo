@@ -1,0 +1,37 @@
+TODOs
+
+
+En el MDI cuando se corre un form se repinta todo.
+Pantalla de ganadores, ver de cerrarla.
+numero de bilillas sorteadas en sorteo bingo.
+
+
+
+no refresca la lista de vendedores despues de agregar el vendedor.
+
+validar largo de dni en abmVendedor.
+El formulario de premios no guarda el estado. (Podria mostrar los premios en algun lugar)
+las pantallas de sorteoext se habre mas de dos veces.
+
+
+
+
+
+arreglar extender pantalla
+
+
+revisar:
+-si no hay cartones vendidos no deberia dejar sortear
+
+
+EN Sorteo del Bingo, no se pueden ver los numeros del sorteo (solo se ven los que te deja la lista)
+
+
+opcional: funcion que distribuya las columnas en el resize en tbrListview
+
+preguntas a carlos salas:
+hace falta la Fecha de venta de cada carton ?
+Se debe detener el sorteo al hallar un ganador ?
+puede haber mas de un ganador en un mismo sorteo ?
+en la pantalla tecnica de seguimiento se vera un resumen de los ganadores de cada sorteo
+desea ver mas datos ? cuales ?

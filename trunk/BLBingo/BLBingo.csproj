@@ -1,0 +1,74 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>8.0.50727</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{35DB3AFC-071E-41F8-9F66-C683E776DBF5}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>BLBingo</RootNamespace>
+    <AssemblyName>BLBingo</AssemblyName>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Xml" />
+    <Reference Include="tbrDataBaseManager, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>tbrDataBaseManager.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="BaseDatos.cs" />
+    <Compile Include="Bingo.cs" />
+    <Compile Include="Bolillero.cs" />
+    <Compile Include="Carton.cs" />
+    <Compile Include="CartonBingo.cs" />
+    <Compile Include="CartonBingoManager.cs" />
+    <Compile Include="CartonGanador.cs" />
+    <Compile Include="CartonGanadorManager.cs" />
+    <Compile Include="CartonManager.cs" />
+    <Compile Include="Comprador.cs" />
+    <Compile Include="CompradorManager.cs" />
+    <Compile Include="Configuration.cs" />
+    <Compile Include="Enumeraciones.cs" />
+    <Compile Include="FormularioCarton.cs" />
+    <Compile Include="IListable.cs" />
+    <Compile Include="IStrategy.cs" />
+    <Compile Include="Persona.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Sorteo.cs" />
+    <Compile Include="StrategyA.cs" />
+    <Compile Include="tList.cs" />
+    <Compile Include="Vendedor.cs" />
+    <Compile Include="VendedorManager.cs" />
+    <Compile Include="GenerateCartonsOnce.cs" />
+  </ItemGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

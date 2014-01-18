@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wsdl:definitions xmlns:soap="http://schemas.xmlsoap.org/wsdl/soap/" xmlns:tm="http://microsoft.com/wsdl/mime/textMatching/" xmlns:soapenc="http://schemas.xmlsoap.org/soap/encoding/" xmlns:mime="http://schemas.xmlsoap.org/wsdl/mime/" xmlns:tns="http://www.tbrsoft.com.ar/ws" xmlns:s="http://www.w3.org/2001/XMLSchema" xmlns:soap12="http://schemas.xmlsoap.org/wsdl/soap12/" xmlns:http="http://schemas.xmlsoap.org/wsdl/http/" targetNamespace="http://www.tbrsoft.com.ar/ws" xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">
+  <wsdl:types>
+    <s:schema elementFormDefault="qualified" targetNamespace="http://www.tbrsoft.com.ar/ws">
+      <s:element name="NotificateError">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="pMessage" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="NotificateErrorResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="NotificateErrorResult" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+    </s:schema>
+  </wsdl:types>
+  <wsdl:message name="NotificateErrorSoapIn">
+    <wsdl:part name="parameters" element="tns:NotificateError" />
+  </wsdl:message>
+  <wsdl:message name="NotificateErrorSoapOut">
+    <wsdl:part name="parameters" element="tns:NotificateErrorResponse" />
+  </wsdl:message>
+  <wsdl:portType name="tbrErrorServiceWSSoap">
+    <wsdl:operation name="NotificateError">
+      <wsdl:input message="tns:NotificateErrorSoapIn" />
+      <wsdl:output message="tns:NotificateErrorSoapOut" />
+    </wsdl:operation>
+  </wsdl:portType>
+  <wsdl:binding name="tbrErrorServiceWSSoap" type="tns:tbrErrorServiceWSSoap">
+    <soap:binding transport="http://schemas.xmlsoap.org/soap/http" />
+    <wsdl:operation name="NotificateError">
+      <soap:operation soapAction="http://www.tbrsoft.com.ar/ws/NotificateError" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+  </wsdl:binding>
+  <wsdl:binding name="tbrErrorServiceWSSoap12" type="tns:tbrErrorServiceWSSoap">
+    <soap12:binding transport="http://schemas.xmlsoap.org/soap/http" />
+    <wsdl:operation name="NotificateError">
+      <soap12:operation soapAction="http://www.tbrsoft.com.ar/ws/NotificateError" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+  </wsdl:binding>
+  <wsdl:service name="tbrErrorServiceWS">
+    <wsdl:port name="tbrErrorServiceWSSoap" binding="tns:tbrErrorServiceWSSoap">
+      <soap:address location="http://www.tbrsoft.com.ar/ws/errorservice/tbrErrorServiceWS.asmx" />
+    </wsdl:port>
+    <wsdl:port name="tbrErrorServiceWSSoap12" binding="tns:tbrErrorServiceWSSoap12">
+      <soap12:address location="http://www.tbrsoft.com.ar/ws/errorservice/tbrErrorServiceWS.asmx" />
+    </wsdl:port>
+  </wsdl:service>
+</wsdl:definitions>

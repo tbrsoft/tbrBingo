@@ -1,0 +1,3 @@
+Menu Generar>Administrador de Configuración
+
+Todos los proyectos deben estar en 'Release', no 'Debug'

@@ -1,0 +1,16 @@
+D:\dev\tbrBingo\trunk\GeneradorLicencias\bin\Debug\GeneradorLicencias.exe
+D:\dev\tbrBingo\trunk\GeneradorLicencias\bin\Debug\GeneradorLicencias.pdb
+D:\dev\tbrBingo\trunk\GeneradorLicencias\obj\Debug\ResolveAssemblyReference.cache
+D:\dev\tbrBingo\trunk\GeneradorLicencias\obj\Debug\GeneradorLicencias.frmGenerador.resources
+D:\dev\tbrBingo\trunk\GeneradorLicencias\obj\Debug\GeneradorLicencias.Properties.Resources.resources
+D:\dev\tbrBingo\trunk\GeneradorLicencias\obj\Debug\GeneradorLicencias.csproj.GenerateResource.Cache
+D:\dev\tbrBingo\trunk\GeneradorLicencias\obj\Debug\GeneradorLicencias.exe
+D:\dev\tbrBingo\trunk\GeneradorLicencias\obj\Debug\GeneradorLicencias.pdb
+D:\dev\tbrBingo\trunk\GeneradorLicencias\bin\Release\GeneradorLicencias.exe
+D:\dev\tbrBingo\trunk\GeneradorLicencias\bin\Release\GeneradorLicencias.pdb
+D:\dev\tbrBingo\trunk\GeneradorLicencias\obj\Release\ResolveAssemblyReference.cache
+D:\dev\tbrBingo\trunk\GeneradorLicencias\obj\Release\GeneradorLicencias.frmGenerador.resources
+D:\dev\tbrBingo\trunk\GeneradorLicencias\obj\Release\GeneradorLicencias.Properties.Resources.resources
+D:\dev\tbrBingo\trunk\GeneradorLicencias\obj\Release\GeneradorLicencias.csproj.GenerateResource.Cache
+D:\dev\tbrBingo\trunk\GeneradorLicencias\obj\Release\GeneradorLicencias.exe
+D:\dev\tbrBingo\trunk\GeneradorLicencias\obj\Release\GeneradorLicencias.pdb

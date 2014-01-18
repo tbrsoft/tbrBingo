@@ -1,0 +1,11 @@
+para darle permisos a los programas en red
+PELIGROSO pero necesario con mio maquina virtual!!!
+
+Panle Control - Herr Admin
+Directiva seg
+Equipo
+Grupo codigo
+all code
+local internet zone
+click derecho propiedades
+conjunto de permisos = full trust

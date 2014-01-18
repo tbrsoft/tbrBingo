@@ -1,0 +1,16 @@
+obj\Debug\ResolveAssemblyReference.cache
+obj\Debug\GeneradorLicencias.frmGenerador.resources
+obj\Debug\GeneradorLicencias.Properties.Resources.resources
+obj\Debug\GeneradorLicencias.csproj.GenerateResource.Cache
+bin\Debug\GeneradorLicencias.exe
+bin\Debug\GeneradorLicencias.pdb
+obj\Debug\GeneradorLicencias.exe
+obj\Debug\GeneradorLicencias.pdb
+bin\Release\GeneradorLicencias.exe
+bin\Release\GeneradorLicencias.pdb
+obj\Release\ResolveAssemblyReference.cache
+obj\Release\GeneradorLicencias.frmGenerador.resources
+obj\Release\GeneradorLicencias.Properties.Resources.resources
+obj\Release\GeneradorLicencias.csproj.GenerateResource.Cache
+obj\Release\GeneradorLicencias.exe
+obj\Release\GeneradorLicencias.pdb

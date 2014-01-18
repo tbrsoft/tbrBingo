@@ -1,0 +1,12 @@
+<?xml version="1.0" standalone="yes"?>
+<CartonesBingo>
+  <Cartones>
+    <Nombre>-</Nombre>
+    <Apellido>-</Apellido>
+    <Dni>-</Dni>
+    <Telefono>-</Telefono>
+    <Direccion>-</Direccion>
+    <Mail>-</Mail>
+    <Observaciones>-</Observaciones>
+  </Cartones>
+</CartonesBingo>

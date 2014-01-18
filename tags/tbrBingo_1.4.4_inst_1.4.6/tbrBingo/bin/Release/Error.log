@@ -1,0 +1,24 @@
+
+19/06/2010 06:42:55.361 Fecha - Hora:19/06/2010 06:42:55 p.m.
+Error en tbrBingo.
+19/06/2010 06:42:55.361 Error global.
+19/06/2010 06:42:55.521 Source: tbrBingo
+19/06/2010 06:42:55.521 Method: cmdAceptar_Click
+19/06/2010 06:42:55.521 Error: Referencia a objeto no establecida como instancia de un objeto.
+19/06/2010 06:42:55.551 Stack Trace:    en tbrBingo.frmRegistrarVenta.cmdAceptar_Click(Object sender, EventArgs e) en X:\win-d\dev\tbrBingo\trunk\tbrBingo\frmRegistrarVenta.cs:línea 151
+   en System.Windows.Forms.Control.OnClick(EventArgs e)
+   en System.Windows.Forms.Button.OnClick(EventArgs e)
+   en System.Windows.Forms.Button.OnMouseUp(MouseEventArgs mevent)
+   en System.Windows.Forms.Control.WmMouseUp(Message& m, MouseButtons button, Int32 clicks)
+   en System.Windows.Forms.Control.WndProc(Message& m)
+   en System.Windows.Forms.ButtonBase.WndProc(Message& m)
+   en System.Windows.Forms.Button.WndProc(Message& m)
+   en System.Windows.Forms.Control.ControlNativeWindow.OnMessage(Message& m)
+   en System.Windows.Forms.Control.ControlNativeWindow.WndProc(Message& m)
+   en System.Windows.Forms.NativeWindow.DebuggableCallback(IntPtr hWnd, Int32 msg, IntPtr wparam, IntPtr lparam)
+   en System.Windows.Forms.UnsafeNativeMethods.DispatchMessageW(MSG& msg)
+   en System.Windows.Forms.Application.ComponentManager.System.Windows.Forms.UnsafeNativeMethods.IMsoComponentManager.FPushMessageLoop(Int32 dwComponentID, Int32 reason, Int32 pvLoopData)
+   en System.Windows.Forms.Application.ThreadContext.RunMessageLoopInner(Int32 reason, ApplicationContext context)
+   en System.Windows.Forms.Application.ThreadContext.RunMessageLoop(Int32 reason, ApplicationContext context)
+   en System.Windows.Forms.Application.Run(Form mainForm)
+   en tbrBingo.Program.Main() en X:\win-d\dev\tbrBingo\trunk\tbrBingo\Program.cs:línea 29

@@ -1,0 +1,393 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>8.0.50727</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{1D3273AD-2306-494B-8E32-4B2D7F56D4CD}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>tbrBingo</RootNamespace>
+    <AssemblyName>tbrBingo</AssemblyName>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.configuration" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.EnterpriseServices" />
+    <Reference Include="System.Management" />
+    <Reference Include="System.Web.Services" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Common.cs" />
+    <Compile Include="ctrlGanadores.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="ctrlGanadores.Designer.cs">
+      <DependentUpon>ctrlGanadores.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmABMVendedores.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmABMVendedores.Designer.cs">
+      <DependentUpon>frmABMVendedores.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmAbout.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmAbout.Designer.cs">
+      <DependentUpon>frmAbout.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmAsignarCartones.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmAsignarCartones.Designer.cs">
+      <DependentUpon>frmAsignarCartones.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmCambiarPass.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmCambiarPass.Designer.cs">
+      <DependentUpon>frmCambiarPass.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmConsultaBingos.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmConsultaBingos.designer.cs">
+      <DependentUpon>frmConsultaBingos.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmConsultaCartonBingo.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmConsultaCartonBingo.Designer.cs">
+      <DependentUpon>frmConsultaCartonBingo.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmConsultaVendedores.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmConsultaVendedores.Designer.cs">
+      <DependentUpon>frmConsultaVendedores.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmDiseñoImpresion.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmDiseñoImpresion.Designer.cs">
+      <DependentUpon>frmDiseñoImpresion.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmABMBingo.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmABMBingo.Designer.cs">
+      <DependentUpon>frmABMBingo.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmError.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmError.Designer.cs">
+      <DependentUpon>frmError.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmImpresionCartones.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmImpresionCartones.Designer.cs">
+      <DependentUpon>frmImpresionCartones.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmInicioSesion.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmInicioSesion.Designer.cs">
+      <DependentUpon>frmInicioSesion.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmPremiosPorSorteo.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmPremiosPorSorteo.Designer.cs">
+      <DependentUpon>frmPremiosPorSorteo.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmRealizarSorteo.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmRealizarSorteo.Designer.cs">
+      <DependentUpon>frmRealizarSorteo.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmRegistrarVenta.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmRegistrarVenta.Designer.cs">
+      <DependentUpon>frmRegistrarVenta.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmSorteoExt.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmSorteoExt.Designer.cs">
+      <DependentUpon>frmSorteoExt.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmSorteoPrincipal.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmSorteoPrincipal.Designer.cs">
+      <DependentUpon>frmSorteoPrincipal.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmSorteoSecundario.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmSorteoSecundario.Designer.cs">
+      <DependentUpon>frmSorteoSecundario.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmTest.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmTest.Designer.cs">
+      <DependentUpon>frmTest.cs</DependentUpon>
+    </Compile>
+    <Compile Include="LicenciaBasica.cs" />
+    <Compile Include="Log.cs" />
+    <Compile Include="MDI.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="MDI.Designer.cs">
+      <DependentUpon>MDI.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="ctrlGanadores.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>ctrlGanadores.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmABMVendedores.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>frmABMVendedores.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmAbout.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>frmAbout.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmAsignarCartones.resx">
+      <DependentUpon>frmAsignarCartones.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmCambiarPass.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>frmCambiarPass.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmConsultaBingos.resx">
+      <DependentUpon>frmConsultaBingos.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmConsultaCartonBingo.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>frmConsultaCartonBingo.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmConsultaVendedores.resx">
+      <DependentUpon>frmConsultaVendedores.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmDiseñoImpresion.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>frmDiseñoImpresion.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmABMBingo.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>frmABMBingo.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmError.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>frmError.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmImpresionCartones.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>frmImpresionCartones.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmInicioSesion.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>frmInicioSesion.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmPremiosPorSorteo.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>frmPremiosPorSorteo.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmRealizarSorteo.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>frmRealizarSorteo.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmRegistrarVenta.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>frmRegistrarVenta.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmSorteoExt.resx">
+      <DependentUpon>frmSorteoExt.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmSorteoPrincipal.resx">
+      <DependentUpon>frmSorteoPrincipal.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmSorteoSecundario.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>frmSorteoSecundario.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmTest.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>frmTest.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MDI.resx">
+      <DependentUpon>MDI.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <SubType>Designer</SubType>
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="tBingo.resx">
+      <DependentUpon>tBingo.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="tbrListView.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>tbrListView.cs</DependentUpon>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <DependentUpon>Resources.resx</DependentUpon>
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <DependentUpon>Settings.settings</DependentUpon>
+      <AutoGen>True</AutoGen>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+    <Compile Include="tBingo.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="tBingo.designer.cs">
+      <DependentUpon>tBingo.cs</DependentUpon>
+    </Compile>
+    <Compile Include="tbrListView.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="tbrListView.Designer.cs">
+      <DependentUpon>tbrListView.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Testing.cs" />
+    <Compile Include="Web References\ErrorService\Reference.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Reference.map</DependentUpon>
+    </Compile>
+    <Compile Include="Web References\SoftwareVersion\Reference.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Reference.map</DependentUpon>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\BLBingo\BLBingo.csproj">
+      <Project>{35DB3AFC-071E-41F8-9F66-C683E776DBF5}</Project>
+      <Name>BLBingo</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\ExcelInterface\ExcelInterface.vbproj">
+      <Project>{602EEBD1-FD49-4B36-8DC5-B828156FAD7E}</Project>
+      <Name>ExcelInterface</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <WebReferences Include="Web References\" />
+  </ItemGroup>
+  <ItemGroup>
+    <WebReferenceUrl Include="http://www.tbrsoft.com.ar/ws/errorservice/tbrErrorServiceWS.asmx">
+      <UrlBehavior>Dynamic</UrlBehavior>
+      <RelPath>Web References\ErrorService\</RelPath>
+      <UpdateFromURL>http://www.tbrsoft.com.ar/ws/errorservice/tbrErrorServiceWS.asmx</UpdateFromURL>
+      <ServiceLocationURL>
+      </ServiceLocationURL>
+      <CachedDynamicPropName>
+      </CachedDynamicPropName>
+      <CachedAppSettingsObjectName>Settings</CachedAppSettingsObjectName>
+      <CachedSettingsPropName>tbrBingo_ErrorService_tbrErrorServiceWS</CachedSettingsPropName>
+    </WebReferenceUrl>
+    <WebReferenceUrl Include="http://www.tbrsoft.com.ar/ws/Softwareversion/tbrsoftwareversionws.asmx">
+      <UrlBehavior>Dynamic</UrlBehavior>
+      <RelPath>Web References\SoftwareVersion\</RelPath>
+      <UpdateFromURL>http://www.tbrsoft.com.ar/ws/Softwareversion/tbrsoftwareversionws.asmx</UpdateFromURL>
+      <ServiceLocationURL>
+      </ServiceLocationURL>
+      <CachedDynamicPropName>
+      </CachedDynamicPropName>
+      <CachedAppSettingsObjectName>Settings</CachedAppSettingsObjectName>
+      <CachedSettingsPropName>tbrBingo_SoftwareVersion_tbrSoftwareVersionWS</CachedSettingsPropName>
+    </WebReferenceUrl>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="app.config" />
+    <None Include="Web References\ErrorService\tbrErrorServiceWS.wsdl" />
+    <None Include="Web References\SoftwareVersion\Reference.map">
+      <Generator>MSDiscoCodeGenerator</Generator>
+      <LastGenOutput>Reference.cs</LastGenOutput>
+    </None>
+    <None Include="Web References\SoftwareVersion\tbrsoftwareversionws.disco" />
+    <None Include="Web References\SoftwareVersion\tbrsoftwareversionws.wsdl" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Web References\ErrorService\Reference.map">
+      <Generator>MSDiscoCodeGenerator</Generator>
+      <LastGenOutput>Reference.cs</LastGenOutput>
+    </None>
+    <None Include="Web References\ErrorService\tbrErrorServiceWS.disco" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bingo.jpg" />
+    <None Include="ClassDiagram1.cd" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="fondoCartones\azul.jpg">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="fondoCartones\bolas.jpg">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="fondoCartones\celeste.jpg">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="fondoCartones\grisazulado.jpg">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="fondoCartones\naranja.jpg">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+  </ItemGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

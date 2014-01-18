@@ -1,0 +1,67 @@
+<!DOCTYPE HTML PUBLIC "-//IETF//DTD HTML//EN">
+<HTML>
+<HEAD>
+<meta name="GENERATOR" content="Microsoft&reg; HTML Help Workshop 4.1">
+<!-- Sitemap 1.0 -->
+</HEAD><BODY>
+<OBJECT type="text/site properties">
+	<param name="ImageType" value="Folder">
+</OBJECT>
+<UL>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="Introduccion">
+		<param name="Local" value="Principal.htm">
+		<param name="ImageNumber" value="9">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="Activaci&oacute;n del Software.">
+		<param name="Local" value="Activacion.htm">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="Bingos">
+		<param name="ImageNumber" value="1">
+		</OBJECT>
+	<UL>
+		<LI> <OBJECT type="text/sitemap">
+			<param name="Name" value="Consultar Bingos">
+			<param name="Local" value="ConsultaBingos.htm">
+			</OBJECT>
+		<LI> <OBJECT type="text/sitemap">
+			<param name="Name" value="Registrar Nuevo Bingo">
+			<param name="Local" value="NuevoBingo.htm">
+			</OBJECT>
+		<LI> <OBJECT type="text/sitemap">
+			<param name="Name" value="Abrir un bingo">
+			<param name="Local" value="AbrirBingo.htm">
+			</OBJECT>
+		<LI> <OBJECT type="text/sitemap">
+			<param name="Name" value="Asignar Cartones a Vendedor">
+			<param name="Local" value="AsignarCartones.htm">
+			</OBJECT>
+		<LI> <OBJECT type="text/sitemap">
+			<param name="Name" value="Proceso de Venta de Cartones">
+			<param name="Local" value="ProcesoVentaCartones.htm">
+			</OBJECT>
+		<LI> <OBJECT type="text/sitemap">
+			<param name="Name" value="Dise&ntilde;o Gr&aacute;fico del Cart&oacute;n">
+			<param name="Local" value="DiseñoImpresion.htm">
+			</OBJECT>
+		<LI> <OBJECT type="text/sitemap">
+			<param name="Name" value="Imprimir los Cartones">
+			<param name="Local" value="ImprimirCartones.htm">
+			</OBJECT>
+		<LI> <OBJECT type="text/sitemap">
+			<param name="Name" value="Realizar Sorteo">
+			<param name="Local" value="RealizarSorteo.htm">
+			</OBJECT>
+	</UL>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="Vendedores">
+		<param name="Local" value="Vendedores.htm">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="Consulta de Cartones">
+		<param name="Local" value="ConsultarCartones.htm">
+		</OBJECT>
+</UL>
+</BODY></HTML>

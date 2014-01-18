@@ -1,0 +1,12 @@
+D:\dev\tbrBingo\trunk\BLBingo\bin\Debug\BLBingo.dll
+D:\dev\tbrBingo\trunk\BLBingo\bin\Debug\BLBingo.pdb
+D:\dev\tbrBingo\trunk\BLBingo\bin\Debug\tbrDataBaseManager.dll
+D:\dev\tbrBingo\trunk\BLBingo\obj\Debug\ResolveAssemblyReference.cache
+D:\dev\tbrBingo\trunk\BLBingo\obj\Debug\BLBingo.dll
+D:\dev\tbrBingo\trunk\BLBingo\obj\Debug\BLBingo.pdb
+D:\dev\tbrBingo\trunk\BLBingo\bin\Release\BLBingo.dll
+D:\dev\tbrBingo\trunk\BLBingo\bin\Release\BLBingo.pdb
+D:\dev\tbrBingo\trunk\BLBingo\bin\Release\tbrDataBaseManager.dll
+D:\dev\tbrBingo\trunk\BLBingo\obj\Release\ResolveAssemblyReference.cache
+D:\dev\tbrBingo\trunk\BLBingo\obj\Release\BLBingo.dll
+D:\dev\tbrBingo\trunk\BLBingo\obj\Release\BLBingo.pdb

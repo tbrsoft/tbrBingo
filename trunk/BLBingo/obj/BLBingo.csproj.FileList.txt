@@ -1,0 +1,6 @@
+bin\Release\BLBingo.dll
+bin\Release\BLBingo.pdb
+bin\Release\tbrDataBaseManager.dll
+obj\Release\ResolveAssemblyReference.cache
+obj\Release\BLBingo.dll
+obj\Release\BLBingo.pdb
